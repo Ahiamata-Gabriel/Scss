@@ -35,27 +35,27 @@ body {
   width: 80%;
   margin: 0 auto;
 
-//   #{&}__paragraph1 {
-//     font-weight: weight(bold);
+  #{&}__paragraph1 {
+    font-weight: weight(bold);
 
-//     &:hover {
-//       color: pink;
-//     }
-//   }
+    &:hover {
+      color: pink;
+    }
+  }
 
-//   @include mobile {
-//     flex-direction: row;
-//   }
+  @include mobile {
+    flex-direction: row;
+  }
 
-//   #{&}__paragraph2 {
-//     @extend .main__paragraph1;
+  #{&}__paragraph2 {
+    @extend .main__paragraph1;
 
-//     &:hover {
-//       color: pink;
-//     }
-//   }
-// }
+    &:hover {
+      color: pink;
+    }
+  }
+}
 
-// .light {
-//   @include theme($light-theme: false);
-// }
+.light {
+  @include theme($light-theme: false);
+}
